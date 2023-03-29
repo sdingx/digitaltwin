@@ -1,0 +1,39 @@
+---
+title: "Vignette"
+author: "Sam Ding"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+---
+
+```{r}
+library(dummypackage)
+```
+
+```{r}
+vec1 <- dummypackage::generate_random_vector(3)
+vec2 <- dummypackage::generate_random_vector(3)
+vec1
+vec2
+```
+
+
+```{r}
+dummypackage::add_two_vectors(vec1, vec2)
+```
+
+```{r}
+mat1 <- dummypackage::generate_random_matrix(2, 3)
+mat2 <- dummypackage::generate_random_matrix(2, 3)
+
+mat1
+mat2
+```
+
+```{r}
+dummypackage::paste_matrices(mat1, mat2)
+```
+
+```{r}
+dummypackage::matrix_multiplication(t(mat1),  mat2)
+```
+

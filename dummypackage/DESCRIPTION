@@ -1,0 +1,9 @@
+Package: dummypackage
+Type: Package
+Title: Dummy package
+Version: 1.0
+Date: 2023-03-29
+Author: Sam Ding
+Description: Dummy package on matrices and vectors
+Encoding: UTF-8
+RoxygenNote: 7.2.3
