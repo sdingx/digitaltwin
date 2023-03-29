@@ -7,6 +7,8 @@ Author: Sam Ding
 Authors@R: person("Sam", "Ding", email = "samdingx@email.com",role = c("aut", "cre"))
 Maintainer: Sam Ding <samdingx@email.com>
 Description: This is a dummy package that provides functions for working with matrices and vectors. The package includes functions for matrix multiplication, vector addition, and element-wise multiplication.
+InstScript: inst/load.R
+Exclude: R/my_package.R
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.2.3
