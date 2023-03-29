@@ -4,6 +4,11 @@ Title: Dummy package
 Version: 1.0
 Date: 2023-03-29
 Author: Sam Ding
-Description: Dummy package on matrices and vectors
+Authors@R: person("Sam", "Ding", email = "samdingx@email.com",role = c("aut", "cre"))
+Maintainer: Sam Ding <samdingx@email.com>
+Description: This is a dummy package that provides functions for working with matrices and vectors. The package includes functions for matrix multiplication, vector addition, and element-wise multiplication.
+License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.2.3
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown, stats

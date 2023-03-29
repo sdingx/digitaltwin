@@ -1,12 +1,26 @@
 ---
-title: "Vignette"
+title: "Dummy Variable intro"
 author: "Sam Ding"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
 
 ```{r}
 library(dummypackage)
+check()
 ```
 
 ```{r}
@@ -16,6 +30,13 @@ vec1
 vec2
 ```
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE
+  )
+```
 
 ```{r}
 dummypackage::add_two_vectors(vec1, vec2)
@@ -33,7 +54,6 @@ mat2
 dummypackage::paste_matrices(mat1, mat2)
 ```
 
-```{r}
+
 dummypackage::matrix_multiplication(t(mat1),  mat2)
 ```
-

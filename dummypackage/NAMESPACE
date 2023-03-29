@@ -1,3 +1,0 @@
-export("add_two_vectors", "generate_random_matrix",
-       "generate_random_vector", "matrix_multiplication",
-       "paste_matrices")
